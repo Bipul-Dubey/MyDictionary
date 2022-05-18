@@ -1,0 +1,32 @@
+body{
+    background-color:#ec7063;
+}
+.centered {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:#fff;
+}
+h1{
+    font-size:70px;
+}
+h2{
+    font-family: 'Mukta', sans-serif;
+}
+.container{
+    background-color:#fcf3cf;
+    border-radius: 25px;
+}
+label{
+    font-size:35px;
+    font-family: 'Koulen', cursive;
+}
+.text-box{
+    width:50%;
+}
+span{
+    color:black;
+    font-size:30px;
+    font-family: 'Headland One', serif;
+}
