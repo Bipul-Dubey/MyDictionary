@@ -15,6 +15,7 @@ h2{
     font-family: 'Mukta', sans-serif;
 }
 .container{
+    height:100%;
     background-color:#fcf3cf;
     border-radius: 25px;
 }

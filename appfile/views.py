@@ -16,7 +16,7 @@ def translate(word):
     r = requests.get(url, headers=headers)
     hindi = r.json()["results"][0]['lexicalEntries'][0]['entries'][0]['senses'][0]['translations'][0]['text']
 
-    url2 = f"https://od-api.oxforddictionaries.com/api/v2/entries/en-gb/{word}?fields=definitions&strictMatch=false"
+    url2 = f"https://od-api.oxforddictionaries.com/api/v2/entries/en-gb/{word.lower()}?fields=definitions&strictMatch=false"
     r2 = requests.get(url2, headers=headers)
     define = r2.json()['results'][0]['lexicalEntries'][0]['entries'][0]['senses'][0]['definitions'][0]
 
